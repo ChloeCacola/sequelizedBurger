@@ -23,7 +23,7 @@ app.set("view engine", "handlebars");
 require("./routes/burger-routes.js")(app);
 
 //sync models; run express app
-db.sequelize.sync({force: true}).then(function() {
+db.sequelize.sync().then(function() {
 	app.listen(PORT, function() {
 		console.log("Listening on PORT " + PORT);
 	});
