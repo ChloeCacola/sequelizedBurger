@@ -1,5 +1,5 @@
 {
-  "name": "burger",
+  "name": "sequelizeBurger",
   "version": "1.0.0",
   "description": "burger logger using mvc design pattern; feat handlebars, mysql, node, more..",
   "main": "server.js",
