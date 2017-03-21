@@ -9,7 +9,7 @@
 		{{#unless this.devoured}}
 			<li>
 
-				<form action="/{{this.id}}?_method=PUT" method="POST">
+				<form action="/{{this.id}}" method="POST">
 					<input type="hidden" name="ate" value="true">
 					<button type="submit" class="btn">{{this.burger_name}}</button>
 				</form>
@@ -28,7 +28,7 @@
   		{{#if this.devoured}}
   			<li>
 
-  				<form action="/{{this.id}}?_method=PUT" method="POST">
+  				<form action="/{{this.id}}" method="POST">
   					<input type="hidden" name="ate" value="false">
   					<button type="submit" class="btn">{{this.burger_name}}</button>
   				</form>
